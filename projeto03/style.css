@@ -1,0 +1,96 @@
+body{
+  background-color: #2C2B3D;
+  margin: 0;
+}
+
+.page{
+  width: 1092px;
+  margin: 0 auto 0;
+}
+nav{
+
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1083px;
+  margin:71px auto 101px;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  gap: 64px;
+  list-style: none; 
+
+  font-size: 14px;
+  line-height: 28px;  
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+ul li a:hover{
+  font-weight: bold;
+}
+
+h1, ul, footer{
+  font-family: 'JetBrains Mono', monospace;
+  color: white;
+}
+
+main{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  margin-bottom: 157px;
+
+  width: 1092px;
+}
+section{
+  color: #C2C2C2;
+  width: 609px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+  font-size: 36px;
+  line-height: 40px;
+  margin-bottom: 59px;
+}
+
+span{
+  color: #00BFA6;
+}
+
+footer{
+  text-align: center;
+  font-size: 14px;
+  line-height: 28px;
+ 
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+footer .line{
+ 
+  border: 1px solid #00BFA6;
+  width: 568px;
+  height: 0px;
+
+  margin: 0 auto 27px;
+}
+
+#balls{
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
